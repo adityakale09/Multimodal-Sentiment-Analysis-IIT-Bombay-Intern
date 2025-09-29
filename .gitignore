@@ -1,11 +1,19 @@
-# Data files (often too large for GitHub and contain sensitive information)
-data/
-*.csv
+# Large/sensitive data files (too large for GitHub and contain sensitive information)
+data/EEG.csv
+data/GSR.csv
+data/TIVA.csv
+data/PSY.csv
+data/NSTLX.csv
+
+# Allow small processed files
+!data/multimodal_features.csv
+!data/sentiment_labels.csv
+
+# Other data files
 *.pkl
 *.pickle
 *.h5
 *.hdf5
-*.json
 
 # Python cache and environments
 __pycache__/
