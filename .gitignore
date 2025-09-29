@@ -1,0 +1,101 @@
+# Data files (often too large for GitHub and contain sensitive information)
+data/
+*.csv
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.json
+
+# Python cache and environments
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv/
+venv/
+env/
+.conda/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Model files (can be large)
+models/
+*.model
+*.joblib
+
+# Results and logs
+results/
+logs/
+*.log
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+
+# Virtual environments
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# pyenv
+.python-version
+
+# Pytest
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Sphinx documentation
+docs/_build/
+
+# Backup files
+*.bak
+*.orig
